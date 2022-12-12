@@ -1,0 +1,9 @@
+{
+  "compilerOptions": { "strict": true },
+  "include": [   
+    ".eslintrc.js",  
+    "./**/*", // All non-hidden files at any directory level
+    "./**/.*", // Hidden dotfiles like .eslintrc.js at any level
+    "./**/.*.[tj]s?(x)" // All hidden TS/JS dotfiles 
+  ],
+}

@@ -1,0 +1,20 @@
+.button {
+    color: rgb(15, 15, 15);    
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    font-weight: bold; 
+    cursor: pointer 
+  }
+  
+.button:hover {
+    color: black;
+  }
+  
+.button:active {
+    color: black;
+  }
+  
+.button:visited {
+    color:black;
+  }
